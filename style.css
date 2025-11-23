@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: #212120;
+
+}
+
+
+.navbar {
+  /* 1. Aktifkan Flexbox pada elemen induk */
+  display: flex;
+  
+  /* 2. Pusatkan item secara Vertikal (agar sejajar di tengah tinggi navbar) */
+  align-items: center;
+  
+  /* Opsional: Berikan padding dan tinggi agar navbar terlihat jelas */
+  padding: 10px 20px;
+  height: 60px;
+  background-color: #ffffff; /* Warna latar belakang */
+  border-bottom: 1px solid #eee; 
+}
+
+.logo {
+  /* Atur ukuran logo */
+  height: 40px; 
+}
+
+.TextKatalog {
+  /* Beri sedikit jarak setelah logo */
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.divfind {
+  /* PENTING: Dorong elemen ini sejauh mungkin ke kanan. 
+     Ini akan membuat margin kiri otomatis mengambil semua ruang kosong. */
+  margin-left: auto;
+}
+
+.menu-toggle {
+  /* Hapus styling default pada tombol */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.findimg {
+  /* Atur ukuran ikon pencarian */
+  width: 24px;
+  height: 24px;
+}
+
+
+
+/*style slider*/
+.containerSlide {
+    max-width: 1180px;
+    width: 95%;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.slideWarp {
+    position: relative;
+}
+
+ .slider-container {
+    padding-top: 50px;
+       margin: auto;
+       width: 80%;
+       max-width: 1180px;
+       position: relative;
+       overflow: hidden;
+       border-radius: 10px;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+       }
+       .slider {
+           display: flex;
+           transition: transform 0.5s ease-in-out;
+       }
+       .slide {
+           min-width: 100%;
+           position: relative;
+       }
+       .slide img {
+           width: 100%;
+           height: auto;
+           display: block;
+       }
+       /*.slide-caption {
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           right: 0;
+           background: rgba(0, 0, 0, 0.5);
+           color: white;
+           padding: 15px;
+           text-align: center;
+       }*/
+       .slider-nav {
+           position: absolute;
+           top: 50%;
+           width: 100%;
+           display: flex;
+           justify-content: space-between;
+           transform: translateY(-50%);
+       }
+       .slider-nav button {
+           background: rgba(0, 0, 0, 0.5);
+           color: white;
+           border: none;
+           border-radius: 50%;
+           padding: 10px 15px;
+           cursor: pointer;
+           font-size: 18px;
+           transition: background 0.3s;
+       }
+       .slider-nav button:hover {
+           background: rgba(0, 0, 0, 0.8);
+       }
+       .slider-indicators {
+           position: absolute;
+           bottom: 20px;
+           left: 0;
+           right: 0;
+           display: flex;
+           justify-content: center;
+           gap: 10px;
+       }
+       .indicator {
+           width: 12px;
+           height: 12px;
+           border-radius: 50%;
+           background: rgba(255, 255, 255, 0.5);
+           cursor: pointer;
+           transition: background 0.3s;
+       }
+       .indicator.active {
+           background: white;
+       }
+       /* Responsif untuk tablet */
+       @media (max-width: 768px) {
+           .slider-container {
+               width: 90%;
+           }
+       }
+       /* Responsif untuk ponsel */
+       @media (max-width: 480px) {
+           .slider-container {
+               width: 95%;
+           }
+           
+           .slider-nav button {
+               padding: 8px 12px;
+               font-size: 16px;
+           }
+           
+           .slide-caption {
+               font-size: 14px;
+               padding: 10px;
+           }
+       }
