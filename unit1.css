@@ -1,0 +1,42 @@
+
+.contenttcg {
+	margin-top: 30px;
+}
+
+
+.btnback {
+	margin-left: 2%;
+	width: 150px;
+	height: 50px;
+	font-size: 30px;
+	border-radius: 20px;
+	border: 2px solid #333;
+	background: transparent;
+}
+
+.titlectlg {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 300;
+
+}
+
+.resault-content {
+	margin: auto;
+	border-radius: 20px;
+	width: 90%;
+	height: 900px;
+	background: #d4d3d2;
+}
+
+/*bagian isi katalog*/
+
+.card-content-prev {
+	text-align: center;
+	list-style-type: none;
+	width: 200px;
+	height: 300px;
+	border-radius: 20px;
+	background: #333;
+}
