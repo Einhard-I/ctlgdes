@@ -7,7 +7,7 @@
 body {
 	font-family: sans-serif;
 	/*background-color: #212120;*/
-    background-color: whitesmoke;
+    background: whitesmoke;
 
 }
 
@@ -69,7 +69,7 @@ body {
 .pengganjal {
     width: 100%;
     height: 50px;
-    background: whitesmoke;
+    background: transparent;
 }
 
 .slideWarp {
@@ -284,10 +284,42 @@ border-radius: 10px;
 }
 
 .akhir {
-    height: 200px;
+    height: 50px;
     width: 100%;
     background: #333;
 }
+
+.pengganjalMini {
+    width: 100%;
+    height: 10px;
+    background: transparent;
+}
+.sosmed {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.sosmedtxt {
+
+    text-decoration: none;   
+}
+
+a:link, a:visited, a:hover, a:active {
+    opacity: 70%;
+    color: whitesmoke;
+}
+
 .akhir-item {
 
+
+}
+
+
+.text-akhir {
+    opacity: 30%;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 13px;
 }
