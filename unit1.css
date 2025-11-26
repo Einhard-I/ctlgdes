@@ -23,6 +23,7 @@
 }
 
 .resault-content {
+	display: flex;
 	margin: auto;
 	border-radius: 20px;
 	width: 90%;
@@ -33,10 +34,51 @@
 /*bagian isi katalog*/
 
 .card-content-prev {
-	text-align: center;
 	list-style-type: none;
 	width: 200px;
 	height: 300px;
 	border-radius: 20px;
-	background: #333;
+	background: #b4b4b4;
+	border: 2px solid #333;
+}
+
+.image-card-content-prev {
+	margin: auto;
+	width: 180px;
+}
+
+.textprev {
+	text-align: center;
+}
+
+.text-deskripsi {
+	margin-top: 2%;
+	margin-left: 4%;
+
+}
+
+.button-buy {
+	margin-left: 50%;
+	width: 80px;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	color: #d4d3d2;
+	font-size: 18px;
+	background: linear-gradient(135deg,#4d4d4d,#141414);
+}
+
+.button-buy:hover {
+	background: linear-gradient(135deg,#9e9d9d,#4b4b4b);
+	color: #2c2c2c;
+}
+
+.card-content-prev-add {
+	
+	list-style-type: none;
+	width: 200px;
+	height: 300px;
+	border-radius: 20px;
+	background: #b4b4b4;
+	border: 2px solid #333;
 }
