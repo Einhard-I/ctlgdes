@@ -6,7 +6,7 @@
 
 .btnback {
 	margin-left: 2%;
-	width: 150px;
+	width: 60px;
 	height: 50px;
 	font-size: 30px;
 	border-radius: 20px;
@@ -22,16 +22,26 @@
 
 }
 
+
+
+/*bagian isi katalog*/
+
 .resault-content {
-	display: flex;
+	/* display: flex; */
 	margin: auto;
 	border-radius: 20px;
-	width: 90%;
-	height: 900px;
+	width: 90.2%;
+	/* height: 900px; */
 	background: #d4d3d2;
 }
 
-/*bagian isi katalog*/
+.card-content {
+	
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	
+}
 
 .card-content-prev {
 	list-style-type: none;
@@ -81,4 +91,9 @@
 	border-radius: 20px;
 	background: #b4b4b4;
 	border: 2px solid #333;
+}
+.button-add {
+	height: 90%;  
+	width: 90%; 
+	color: #333;
 }
