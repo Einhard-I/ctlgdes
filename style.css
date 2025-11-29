@@ -57,6 +57,26 @@ body {
   height: 24px;
 }
 
+/*gambar home*/
+.contenthome {
+    position: relative;
+}
+.contenthome img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+}
+.txt {
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 5%;    
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
 
 
 /*style slider*/
@@ -83,7 +103,7 @@ max-width: 1180px;
 position: relative;
 overflow: hidden;
 border-radius: 10px;
-/*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .slider {
     display: flex;
